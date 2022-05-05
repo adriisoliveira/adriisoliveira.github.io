@@ -1,0 +1,44 @@
+body{
+    background-color: #CBA087;
+}
+
+p{
+    padding: 0%;
+    margin-top: 1px;
+}
+.titleHome{
+    font-family: mahalika;
+    font-size: 60px;
+}
+
+.subtitleHome{
+    font-family: mahalika;
+    font-size: 40px;
+
+}
+
+.textHome{
+    font-family: assistant-regular;
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+.imgHome{
+    width: 330px;
+    height: 391px;
+    border-radius: 10px;
+}
+
+.divHome{
+    position: relative;
+}
+
+.divImg{
+    width: 50%;
+    float: left;
+}
+
+.divText{
+    width: 50%;
+    float: right;
+}
