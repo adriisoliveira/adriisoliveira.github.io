@@ -193,16 +193,42 @@ body{
 
 
 
-  /* .divCurriculoProfissional{
-    height: 450px;
+  .divCurriculoProfissional{
+    height: 700px;
     width: 100%;
-    top: 1130px;
+    top: 2100px;
     position: absolute;
-    background-color: #265fa0;
+    background-color: #1e1c1c;
+  }
+
+  .tituloCP{
+    font-family: mahalika;
+    font-size: 70px;
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 200px;
+    text-align: left;
+    margin-top: 120px;
+  }
+
+  .subTituloCP{
+    font-family: mahalika;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+
+  .imgCP {
+    width: 65%;
+    margin-top: 80px;
+    position: absolute;
+    left: 200px;
   }
 
 
-  .divProjetos{
+  /* .divProjetos{
     height: 450px;
     width: 100%;
     top: 1630px;
@@ -216,4 +242,4 @@ body{
     top: 2080px;
     position: absolute;
     background-color: #56c556;
-  } */
+  } */ 
