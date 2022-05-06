@@ -31,7 +31,7 @@ body{
 }
 
 .divHome{
-    position: static;
+    position: absolute;
     height: 680px;
     width: 100%;
     background-color: #CBA087;
@@ -157,17 +157,22 @@ body{
   }
 
 
-
-
-
-
-  /* .divCurriculo{
+  /* .divCurriculoEducacional{
     height: 450px;
     width: 100%;
     top: 1130px;
     position: absolute;
     background-color: #265fa0;
   }
+
+  /* .divCurriculoProfissional{
+    height: 450px;
+    width: 100%;
+    top: 1130px;
+    position: absolute;
+    background-color: #265fa0;
+  }
+
 
   .divProjetos{
     height: 450px;
