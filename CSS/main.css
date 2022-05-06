@@ -157,13 +157,41 @@ body{
   }
 
 
-  /* .divCurriculoEducacional{
-    height: 450px;
+  .divCurriculoEducacional{
+    height: 700px;
     width: 100%;
-    top: 1130px;
+    top: 1425px;
     position: absolute;
-    background-color: #265fa0;
+    background-color: #CBA087;
   }
+
+  .tituloCE{
+    font-family: mahalika;
+    font-size: 70px;
+    color: #000000;
+    padding: 0;
+    margin-left: 200px;
+    text-align: left;
+    margin-top: 120px;
+  }
+
+  .subTituloCE{
+    font-family: mahalika;
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+
+  .imgCE{
+    width: 65%;
+    margin-top: 80px;
+    position: absolute;
+    left: 200px;
+  }
+
+
 
   /* .divCurriculoProfissional{
     height: 450px;
