@@ -4,9 +4,13 @@ body{
 }
 
 .topnav {
-  background-color: #CBA087;
+  background-color: #939888;
   overflow: hidden;
-  
+  /* position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em; */
 }
 
 /* Style the links inside the navigation bar */
@@ -22,12 +26,12 @@ body{
 }
 
 .topnav a:hover {
-  background-color: #aa7759;
+  background-color: #696d5f;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #aa7759;
+  background-color: #696d5f;
   color: white;
 }
 
@@ -35,7 +39,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -55,40 +59,40 @@ body{
     display: block;
     text-align: left;
   }
-}
+} */
 
 .titleHome{
     font-family: mahalika;
-    font-size: 90px;
+    font-size: 80px;
+    text-align: center;
 }
 
 .subtitleHome{
     font-family: mahalika;
     font-size: 60px;
-
+    padding: 0px;
+    text-align: center;
 }
 
 .textHome{
     font-family: assistant-regular;
-    font-size: 30px;
-    margin-top: 1px;
-    
+    font-size: 22px;
+    text-align: center;
 }
 
 .imgHome{
-    width: 305px;
-    height: 391px;
+    width: 405px;
     border-radius: 10px;
     position: absolute;
-    top: 150px;
-    left: 250px;
+    top: 80px;
+    left: 180px;
 }
 
 .divHome{
     position: absolute;
     height: 680px;
     width: 100%;
-    background-color: #CBA087;
+    background-color: #939888;
 }
 
 .divImg{
@@ -100,7 +104,7 @@ body{
     width: 50%;
     float: right;
     position: absolute;
-    top: 150px;
+    top: 40px;
     right: 20px;
 }
 
@@ -123,26 +127,32 @@ body{
   .titleAbout{
     font-family: mahalika;
     font-size: 60px;
-    color: #CBA087;
+    color: #939888;
     padding: 0;
+    text-align: center;
   }
 
   .subtitleAbout{
     font-family: mahalika;
     font-size: 30px;
     color: #FFFFFF;
+    text-align: center;
   }
 
   .titleTextAbout{
     font-family: mahalika;
-    font-size: 20px;
-    color: #CBA087;
+    font-size: 22px;
+    color: #939888;
+    text-align: left;
   }
   
   .textAbout{
     font-family: mahalika;
-    font-size: 15px;
+    font-size: 20px;
     color: #FFFFFF;
+    text-align: justify;
+    width: 450px;
+
   }
 
 
@@ -165,7 +175,7 @@ body{
     width: 100%;
     top: 1425px;
     position: absolute;
-    background-color: #CBA087;
+    background-color: #939888;
   }
 
   .tituloCE{
@@ -189,7 +199,7 @@ body{
 
   .imgCE{
     width: 65%;
-    margin-top: 80px;
+    margin-top: 30px;
     position: absolute;
     left: 200px;
   }
@@ -225,7 +235,7 @@ body{
 
   .imgCP {
     width: 65%;
-    margin-top: 80px;
+    margin-top: 20px;
     position: absolute;
     left: 200px;
   }
@@ -236,7 +246,7 @@ body{
     width: 100%;
     top: 2790px;
     position: absolute;
-    background-color: #CBA087;
+    background-color: #939888;
   }
 
   .divContato{
@@ -252,7 +262,7 @@ body{
     font-size: 80px;
     color: #FFFFFF;
     padding: 0;
-    margin-left: 250px;
+    margin-left: 270px;
     margin-top: 130px;
   }
 
@@ -284,7 +294,7 @@ body{
   }
 
   .textContact{
-    color: #aa7759;
+    color: #696d5f;
     font-size: 20px;
     font-family: mahalika;
     text-align: center;
