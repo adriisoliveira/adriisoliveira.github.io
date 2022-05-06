@@ -1,6 +1,7 @@
 
 body{
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .topnav {
@@ -19,10 +20,11 @@ body{
   display: block;
   color: #1e1c1c;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: Tahoma;
+  font-size: 20px;
+  font-family: mahalika;
+  font-weight: bold;
 }
 
 .topnav a:hover {
@@ -65,6 +67,7 @@ body{
     font-family: mahalika;
     font-size: 80px;
     text-align: center;
+    font-weight: bold;
 }
 
 .subTituloInicio{
@@ -128,6 +131,7 @@ body{
     color: #939888;
     padding: 0;
     text-align: center;
+    font-weight: bold;
   }
 
   .subTituloSobre{
@@ -142,6 +146,7 @@ body{
     font-size: 22px;
     color: #939888;
     text-align: left;
+    font-weight: bold;
   }
   
   .textoSobre{
@@ -184,6 +189,7 @@ body{
     margin-left: 200px;
     text-align: left;
     margin-top: 120px;
+    font-weight: bold;
   }
 
   .subTituloCE{
@@ -220,6 +226,7 @@ body{
     margin-left: 200px;
     text-align: left;
     margin-top: 120px;
+    font-weight: bold;
   }
 
   .subTituloCP{
@@ -239,12 +246,72 @@ body{
   }
 
 
-  .divProjetos{
+  .divSkils{
     height: 700px;
     width: 100%;
     top: 2790px;
     position: absolute;
     background-color: #939888;
+  }
+
+
+  .tituloSkills{
+    color: #1e1c1c;
+    font-size: 70px;
+    font-family: mahalika;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    
+  }
+
+  .alinhamentoSkills{
+    margin-top: -50px;
+  }
+
+  .tituloSkill{
+    color: #1e1c1c;
+    font-size: 30px;
+    font-family: mahalika;
+    text-align: left;
+    margin-left: 45px;
+    font-weight: bold;
+  }
+
+  .textoSkill{
+    color: #1e1c1c;
+    font-size: 25px;
+    font-family: mahalika;
+    text-align: center;
+  }
+
+  .qaSkills{
+    float: left;
+    position: absolute;
+    margin-left: 100px;
+    
+  }
+
+  .devSkils{
+    position: absolute;
+    left: 700px;
+  }
+
+  .iconeSkills{
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .listaSkills{
+    color: #1e1c1c;
+    font-size: 20px;
+    font-family: mahalika;
+
+  }
+
+  ul.listaSkills li{
+    padding: 5px;
   }
 
   .divContato{
@@ -262,14 +329,13 @@ body{
     padding: 0;
     margin-left: 270px;
     margin-top: 130px;
+    font-weight: bold;
   }
 
   .imgsContatos{
     position: absolute;
     top: 250px;
     left: 200px;
-    
-    
   }
 
   .icones{
@@ -304,3 +370,34 @@ body{
     font-family: mahalika;
     text-align: center;
   }
+
+section {
+  height: 300vh;
+  background-image: linear-gradient(red, blue);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #1e1c1c;
+    text-decoration: none;
+    border-radius: 60px;
+}
+
+.btn::after {
+    content: "↑";
+    font-size: 35px;
+    font-weight: bold;
+    color: #939888;
+    transition: margin-top 200ms;
+}
+
+.btn:hover::after {
+    margin-top:-6px;
+}
