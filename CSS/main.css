@@ -61,26 +61,26 @@ body{
   }
 } */
 
-.titleHome{
+.tituloInicio{
     font-family: mahalika;
     font-size: 80px;
     text-align: center;
 }
 
-.subtitleHome{
+.subTituloInicio{
     font-family: mahalika;
     font-size: 60px;
     padding: 0px;
     text-align: center;
 }
 
-.textHome{
+.textoInicio{
     font-family: assistant-regular;
     font-size: 22px;
     text-align: center;
 }
 
-.imgHome{
+.imgInicio{
     width: 405px;
     border-radius: 10px;
     position: absolute;
@@ -88,7 +88,7 @@ body{
     left: 180px;
 }
 
-.divHome{
+.divInicio{
     position: absolute;
     height: 680px;
     width: 100%;
@@ -100,7 +100,7 @@ body{
     float: left; 
 }
 
-.divText{
+.divTexto{
     width: 50%;
     float: right;
     position: absolute;
@@ -109,9 +109,7 @@ body{
 }
 
 
-
-  /*Css about page*/
-  .divAbout{
+  .divSobre{
     height: 700px;
     width: 100%;
     top: 725px;
@@ -119,12 +117,12 @@ body{
     background-color: #1e1c1c;
   }
 
-  .divTextAbout{
+  .divTextoSobre{
     float: left;
     margin-left: 105px;
   }
 
-  .titleAbout{
+  .tituloSobre{
     font-family: mahalika;
     font-size: 60px;
     color: #939888;
@@ -132,21 +130,21 @@ body{
     text-align: center;
   }
 
-  .subtitleAbout{
+  .subTituloSobre{
     font-family: mahalika;
     font-size: 30px;
     color: #FFFFFF;
     text-align: center;
   }
 
-  .titleTextAbout{
+  .tituloTextoSobre{
     font-family: mahalika;
     font-size: 22px;
     color: #939888;
     text-align: left;
   }
   
-  .textAbout{
+  .textoSobre{
     font-family: mahalika;
     font-size: 20px;
     color: #FFFFFF;
@@ -156,12 +154,12 @@ body{
   }
 
 
-  .divImgAbout{
+  .divImgSobre{
       width: 50%;
       float: right; 
   }
 
-  .imgAbout{
+  .imgSobre{
     height: 700px;
     border-radius: 1px;
     position: absolute;
@@ -274,7 +272,7 @@ body{
     
   }
 
-  .icons{
+  .icones{
     height: 150px;
   }
 
@@ -293,14 +291,14 @@ body{
     display: inline-block;
   }
 
-  .textContact{
+  .textoContato{
     color: #696d5f;
     font-size: 20px;
     font-family: mahalika;
     text-align: center;
   }
 
-  .textContact1{
+  .textoContato1{
     color: #FFFFFF;
     font-size: 20px;
     font-family: mahalika;
