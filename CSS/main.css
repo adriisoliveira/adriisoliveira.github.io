@@ -35,7 +35,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:last-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -111,6 +111,7 @@ body {
 
 
 @media screen and (max-width: 600px) {
+  
   .divInicio{
       width: 100%;
       height: 1020px;
@@ -474,12 +475,14 @@ ul.listaSkills li{
     
   .qaSkills{
       position: absolute;
+      left: -50px;
   }
     
   .devSkills{
       position: absolute;
       top: 400px;
-      left: 100px;
+      left: 50px;
+      right: 15px;
   }
     
   .iconeSkills{
@@ -571,7 +574,7 @@ ul.listaSkills li{
     .imgsContatos{
       position: absolute;
       top: 200px;
-      left: 170px;
+      left: 130px;
     }
   
     .icones{
