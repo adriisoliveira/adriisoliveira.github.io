@@ -34,7 +34,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .topnav a:not(:last-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -42,7 +42,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -110,7 +110,7 @@ body {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   
   .divInicio{
       width: 100%;
@@ -210,7 +210,7 @@ body {
   left: 739px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .divSobre{
       top: 1080px;
       height: 1020px;
@@ -291,7 +291,7 @@ body {
   left: 200px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .divCurriculoEducacional{
       height: 950px;    
       top: 2100px;
@@ -353,7 +353,7 @@ body {
   left: 200px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .divCurriculoProfissional{
       height: 850px;    
       top: 2950px;
@@ -448,7 +448,7 @@ ul.listaSkills li{
   padding: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .divSkills{
       height: 800px;
       top: 3760px;
@@ -558,7 +558,7 @@ ul.listaSkills li{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .divContato{
       height: 950px;
       margin-top: 1080px;
@@ -642,7 +642,7 @@ ul.listaSkills li{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   #top {
       height: 100vh;
   }
